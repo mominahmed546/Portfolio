@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Typewriter effect
 const typewriterElement = document.querySelector('.typewriter');
-const text = "A passionate Full-Stack Developer crafting innovative web solutions";
+const text = "Passionate AI/ML Developer crafting intelligent and scalable solutions.";
 let index = 0;
 
 function typeWriter() {
@@ -39,3 +39,4 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     alert('Thank you for your message! (This is a demo - no email sent)');
     this.reset();
 });
+
