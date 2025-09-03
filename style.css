@@ -1,0 +1,35 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.nav-link {
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #3b82f6;
+}
+.typewriter {
+    display: inline-block;
+    border-right: 2px solid;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0%, 50% { border-color: transparent; }
+    51%, 100% { border-color: black; }
+}
+.skill-bar {
+    transition: width 2s ease;
+}
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.scroll-section {
+    padding: 4rem;
+}
+img.rounded-full {
+  width: auto;   /* decrease size */
+  height: 500px;   /* keeps aspect ratio */
+}
